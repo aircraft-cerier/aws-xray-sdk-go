@@ -8,7 +8,4 @@ require (
 	github.com/pmezard/go-difflib v0.0.0-20151028094244-d8ed2627bdf0 // indirect
 	github.com/stretchr/testify v1.1.4
 	golang.org/x/net v0.0.0-20190311183353-d8887717615a
-	golang.org/x/text v0.3.2
 )
-
-go 1.13
