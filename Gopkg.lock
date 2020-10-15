@@ -2,12 +2,12 @@
 
 
 [[projects]]
-  digest = "1:d486b410ac9c00474a4f8c2f5d0fdf2a52ccc8fc8add0bd02883c47dbce53acd"
+  digest = "1:bb79929dc3be4d56bc0f343c27fb81b29bbcc2cb1c00d68a82a2472f1072e4c0"
   name = "github.com/DATA-DOG/go-sqlmock"
   packages = ["."]
   pruneopts = "UT"
-  revision = "b983233bc0bbea4dc6e8ec8c8c923d935765ffec"
-  version = "v1.2.0"
+  revision = "b8a63d3edfc5e2ab744c0e9b61342d542e9d7ad2"
+  version = "v1.5.0"
 
 [[projects]]
   digest = "1:a544c8169fb7ea4bf7c54f54ee170a66bb0ea983a4d9932a208319f6a6a1ef31"
