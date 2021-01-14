@@ -81,7 +81,7 @@
   revision = "d8ed2627bdf02c080bf22230dbb337003b7aba2d"
 
 [[projects]]
-  digest = "1:0051206a97cebb56bf910f66602d2517b2471fdc27ccba0abaaabf8ed5a58640"
+  digest = "1:9b46b85fc7bf52c26182ebe7b223ae74514e3e28eb91ae59d97931885cd9ca3e"
   name = "github.com/stretchr/testify"
   packages = [
     "assert",
@@ -89,8 +89,8 @@
     "suite",
   ]
   pruneopts = "UT"
-  revision = "69483b4bd14f5845b5a1e55bca19e954e827f1d0"
-  version = "v1.1.4"
+  revision = "acba37e5db06f0093b465a7d47822bf13644b66c"
+  version = "v1.7.0"
 
 [[projects]]
   digest = "1:a7e7d4a2763c58f27ccd9c712d073b3972ee8ba2780e652a8e918c7ef43149bf"
@@ -128,6 +128,14 @@
   ]
   pruneopts = "UT"
   revision = "5d731a35f4867878fc89f7744f7b6debb3beded6"
+
+[[projects]]
+  branch = "v3"
+  digest = "1:107a619d3c3bcca214b2b7db810a5dffcd74b5d0262813cb2986e063fae2722f"
+  name = "gopkg.in/yaml.v3"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "496545a6307b2a7d7a710fd516e5e16e8ab62dbc"
 
 [solve-meta]
   analyzer-name = "dep"
