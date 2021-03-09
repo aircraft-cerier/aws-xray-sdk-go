@@ -10,7 +10,7 @@
   version = "v1.2.0"
 
 [[projects]]
-  digest = "1:a544c8169fb7ea4bf7c54f54ee170a66bb0ea983a4d9932a208319f6a6a1ef31"
+  digest = "1:c6bd3e8fb80d081a601b72ef65e6381afcd5d7127468bcd39b1d464c797cf624"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -23,6 +23,7 @@
     "aws/credentials/ec2rolecreds",
     "aws/credentials/endpointcreds",
     "aws/credentials/processcreds",
+    "aws/credentials/ssocreds",
     "aws/credentials/stscreds",
     "aws/csm",
     "aws/defaults",
@@ -31,11 +32,15 @@
     "aws/request",
     "aws/session",
     "aws/signer/v4",
+    "internal/context",
     "internal/ini",
     "internal/sdkio",
+    "internal/sdkmath",
     "internal/sdkrand",
     "internal/sdkuri",
     "internal/shareddefaults",
+    "internal/strings",
+    "internal/sync/singleflight",
     "private/protocol",
     "private/protocol/json/jsonutil",
     "private/protocol/jsonrpc",
@@ -44,12 +49,15 @@
     "private/protocol/rest",
     "private/protocol/restjson",
     "private/protocol/xml/xmlutil",
+    "service/sso",
+    "service/sso/ssoiface",
     "service/sts",
+    "service/sts/stsiface",
     "service/xray",
   ]
   pruneopts = "UT"
-  revision = "6ff66bb2b8ac90ac25b1dbbf9806f09651630789"
-  version = "v1.17.12"
+  revision = "776306ec46dc0fd2365304d3e1b4dd09a4d85ed0"
+  version = "v1.37.26"
 
 [[projects]]
   digest = "1:667f41be124637d8af08d9163be07cc718ae291bc590b6a91047c94b25ef0753"
